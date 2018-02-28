@@ -83,8 +83,8 @@ def main(save_path="ximple.html"):
 
 xslt_for_XLSX = '''\
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="2.0"
-xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xpath-default-namespace="http://example.com">
+<xsl:stylesheet version="1.0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:variable name="cellid" select="%s"/>        
     <xsl:variable name="colnum" select="%d"/>
     <xsl:variable name="rownum" select="%d"/>
